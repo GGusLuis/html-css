@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <style>
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: aqua;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: blue;
+        }
+        a::after {
+            content: ' ← ';
+        }
+        a::before {
+            content: ' → ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando HTML</h1>
+    <ul>
+        <a href="https://twitter.com/__GGus__" target="_blank">
+            <li>Perfil Twitter</li>
+        </a>
+            <li><a href="https://www.facebook.com/profile.php?id=100009441513459">Perfil no Facebook</a></li>
+
+        <a href="https://www.instagram.com/ggus_luis/" target="_blank">
+            <li>Perfil Intagram</li>
+        </a>
+    </ul>
+</body>
+</html>

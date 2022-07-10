@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(0, 0, 0, 0.918);
+    font: normal bolder 1.3em 'Arial';
+    color: aliceblue;
+    text-align: center;
+}
+
+p {
+    font: normal normal 16px 'Courier New';
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    font-weight: bolder;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 300px;
+            height: 200px;
+            border-spacing: 0px;
+        }
+        caption {
+            border-radius: 2px;
+            border: 1px solid rgba(0, 0, 0, 0.782);
+            padding: 10px;
+            background-color: black;
+            color: wheat;
+            font-weight: bolder;
+        }
+        td, th {
+            border-radius: 2px;
+            border: 1px solid rgba(0, 0, 0, 0.782);
+            padding: 10px;
+        }
+        td:nth-child(2n) {
+            background-color: rgb(175, 179, 179);
+        }
+        .name {
+            font-weight: bold;
+            background-color: grey;
+        }
+        #sexoM {
+            background-color: blue;
+        }
+        #sexoF {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <tr>
+            <th class="name" scope="col">Grupo</th>
+            <th class="name" scope="col">Nome</th>
+            <th colspan="3" class="name" scope="colgroup">Filmes</th>
+        </tr>
+        <tr>
+            <th rowspan="4" class="name" id="sexoF" scope="rowgroup">Mulheres</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td>Claudia</td>
+            <td>Obvilio</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+        <tr>
+            <th rowspan="4" class="name" id="sexoM" scope="rowgroup">Homens</th>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>Intocaveis</td>
+            <td>Amelia</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>Toy Story</td>
+            <td>oldboy</td>
+            <td>Dangal</td>
+        </tr>
+        <tr>
+            <td>Fabiano</td>
+            <td>Star Wars</td>
+            <td>Taxi Drive</td>
+            <td>Sherek</td>
+        </tr>
+    </table>
+</body>
+</html>
